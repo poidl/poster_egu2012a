@@ -1,0 +1,5 @@
+Fields line 1: Step number, CPU time, Day, Truncations, Total Energy
+Fields line 2: APE of each interface, KE of each layer, 0 APE depth of each interface
+Startup CPU time:       0.000000 sec.
+     0,       0.000000,    0.000,      0, En 7.320402034666e+11
+ 7.94e-17,  7.32e+11,  0.00e+00,  0.00e+00,  -0.00, 155.19, 
