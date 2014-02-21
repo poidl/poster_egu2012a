@@ -27,30 +27,39 @@ http://code.google.com/p/netcdf4-python/wiki/UbuntuInstall
 
 
 Generate the input files for the model (run**/data/*):
->python prep_run**_**.py
+	python prep_run**_**.py
 
 
 In the run**/Makefiles, change the line
-SRCDIR = /home/stefan/arbeit/him/source/
+
+	SRCDIR = /home/stefan/arbeit/him/source/
+
 to point to the HIM source
 
 
 in run**/init.h change the line
-#define INPUTDIR "/home/stefan/arbeit/him/......"
+
+	#define INPUTDIR "/home/stefan/arbeit/him/......"
+	
 to point to the run directory. Use the script python_utils/search_replace.py if you find it
 useful.
 
 
 If you don't want to use parallelization, # undef PARALLEL_X in run**/init.h.
 In this case, change the lines 
-mpirun -n 2 ./run53/HIM < ./run53/temp_in
+
+	mpirun -n 2 ./run53/HIM < ./run53/temp_in
+	
 to
-./run53/HIM < ./run53/temp_in
+
+	./run53/HIM < ./run53/temp_in
+	
 in run**_**.sh 
 
 
 Run runs 53 to 56 for Fig. 3), 4) and 5)
->./run53_56.sh 
+
+	./run53_56.sh 
 
 
 Generate the figures with the scripts in figures_python.
@@ -59,10 +68,11 @@ Generate the figures with the scripts in figures_python.
 To read the content of the netcdf files you can use 'slidenc' (same repository), but note that
 the program is work in progress. 
 In the current version (on May 5th, 2012) of slidenc, you have to remove the lines
-import pyomReader
-import romsReader
-import himReader
+
+	import pyomReader
+	import romsReader
+	import himReader
+	
 in the file '__init__.py' before using it.
 
-
-
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/23dfc47a09f888141e3ac3753bd99439 "githalytics.com")](http://githalytics.com/poidl/poster_egu2012a)
