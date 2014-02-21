@@ -65,14 +65,5 @@ Run runs 53 to 56 for Fig. 3), 4) and 5)
 Generate the figures with the scripts in figures_python.
 
 
-To read the content of the netcdf files you can use 'slidenc' (same repository), but note that
-the program is work in progress. 
-In the current version (on May 5th, 2012) of slidenc, you have to remove the lines
-
-	import pyomReader
-	import romsReader
-	import himReader
-	
-in the file '__init__.py' before using it.
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/23dfc47a09f888141e3ac3753bd99439 "githalytics.com")](http://githalytics.com/poidl/poster_egu2012a)
