@@ -66,4 +66,4 @@ Generate the figures with the scripts in figures_python.
 
 
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/23dfc47a09f888141e3ac3753bd99439 "githalytics.com")](http://githalytics.com/poidl/poster_egu2012a)
+[![githalytics.com alpha](https://cruel-carlota.gopagoda.com/23dfc47a09f888141e3ac3753bd99439 "githalytics.com")](http://githalytics.com/poidl/poster_egu2012a)
